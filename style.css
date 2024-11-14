@@ -6,6 +6,7 @@
     cursor: pointer;
     display: block;
     font-size: 20px;
+    font-weight: bold;
     margin: 0 auto;
     padding: 20px;
 }
@@ -124,4 +125,5 @@ input[type="submit"]:hover {
 
 .read-status {
     background-color: blue;
+    color: white;
 }
