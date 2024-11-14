@@ -26,7 +26,9 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"],
+select {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -38,7 +40,9 @@ input[type="text"] {
     width: 90%;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
     border-color: #333;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -57,4 +61,67 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #444;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.book-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-title {
+    font-size: 22px;
+    margin: 0;
+}
+
+.book-author {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+.book-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-pages {
+    font-size: 18px;
+    margin: 0;
+}
+
+.book-status {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.read-status {
+    background-color: blue;
 }
