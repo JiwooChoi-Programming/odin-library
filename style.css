@@ -1,0 +1,27 @@
+#new-book-button {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
